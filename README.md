@@ -22,4 +22,4 @@ Encadré par **Pr. Ikram BENABDELOUAHAB**.
 Assurez-vous d’avoir OpenSSL :
 ```bash
 sudo apt install libssl-dev
-g++ exercice1.cpp -o exercice1 -lcrypto -lssl
+for i in {1..4}; do g++ exercice$i.cpp -o exercice$i -lcrypto -lssl; done
